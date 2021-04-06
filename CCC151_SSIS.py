@@ -1,3 +1,6 @@
+#still unfinshed
+#undergoing hoping to finished this day
+
 from tkinter import*
 import tkinter.ttk as ttk
 import csv
