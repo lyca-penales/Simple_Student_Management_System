@@ -26,7 +26,7 @@ def my_treeview():
     #Style
     style = ttk.Style()
     style.theme_use("clam")
-    style.configure("Treeview", background = "goldenrod", foreground = "goldenrod", fieldbackground = "goldenrod")
+    style.configure("Treeview", background = "goldenrod", foreground = "black", fieldbackground = "goldenrod")
     style.map("Treeview", background=[("selected", "maroon")])
 
     #Treeview
@@ -345,7 +345,7 @@ program = Label(SSIS, text = "Simple Student Information System (SSIS)",
                 font = ("Arial Rounded MT Bold", 13),
                 fg = "white",
                 bg = "black",
-                width = 32,
+                width = 50,
                 height = 2
                 )
 greetings2 = Label(SSIS, text = "Hello! \n What can I do for you?",
